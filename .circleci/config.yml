@@ -28,7 +28,7 @@ jobs:
     docker:
         - image: cimg/node:16.10
     environment:
-        IMAGE_NAME: YY432/education-space
+        IMAGE_NAME: yy432/education-space
     steps:
         - checkout
         - setup_remote_docker      
